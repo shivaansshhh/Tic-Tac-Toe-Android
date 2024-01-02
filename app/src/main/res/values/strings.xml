@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="Enter_Player_Name">Enter Players Name</string>
+    <string name="btnResult">Restart</string>
+    <string name="firstPlayer">Player 1</string>
+    <string name="secondPlayer">Player 2</string>
+    <string name="start">Start</string>
+    <string name="winner_message">Winner is %s</string>
+    <string name="draw_message">Match is drawn</string>
+    <string name="x_turn">X Turn - Tap to play</string>
+    <string name="o_turn">O Turn - Tap to play</string>
+    <string name="yourturn">Your turn - Tap to play</string>
+    <string name="computer_turn">Wait for your turn</string>
+    <string name="poweredBy">Powered by Cool Kids Studio</string>
+    <string name="single_player">Single Player</string>
+    <string name="multi_player">Multi Player</string>
+    <string name="play_with_friends">Play With Friend Online</string>
+    <string name="computer">Computer</string>
+
+
+
+</resources>

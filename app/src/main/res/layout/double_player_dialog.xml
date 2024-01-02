@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#DFDBDB"
+    tools:context=".Player_Name">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/Enter_Player_Name"
+        android:layout_marginBottom="50dp"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:src="@drawable/x"
+            android:contentDescription="@string/firstPlayer"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/player1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/firstPlayer"
+            android:hint="@string/firstPlayer"
+            android:textColorHint="@color/black"
+            android:selectAllOnFocus="true"
+            android:autofillHints="name"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:ems="15"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="center"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/o"
+            android:contentDescription="@string/secondPlayer"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/player2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secondPlayer"
+            android:hint="@string/secondPlayer"
+            android:textColorHint="@color/black"
+            android:selectAllOnFocus="true"
+            android:autofillHints="name"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:ems="15"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="40dp"
+            android:gravity="center"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/start"
+        android:id="@+id/btnStart"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:layout_marginTop="80dp"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>
